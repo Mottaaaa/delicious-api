@@ -1,0 +1,25 @@
+{
+  "name": "delicious-api",
+  "version": "1.0.0",
+  "description": "A delicious food recipe api",
+  "main": "index.js",
+  "repository": "https://github.com/Mottaaaa/delicious-api.git",
+  "author": "Pedro Mota <pedro10mota@msn.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "exit 0",
+    "start": "NODE_ENV=development node index.js",
+    "start:windows": "set NODE_ENV=development && node index.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "mongoose-deep-populate": "^3.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
